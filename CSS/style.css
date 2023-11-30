@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+  
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+  
+.people-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.person {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+}
+  
+.hidden {
+    display: none;
+}
+  
